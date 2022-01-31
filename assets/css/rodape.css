@@ -1,0 +1,58 @@
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+
+.rodape {
+    width: 100%;
+    height: auto;
+}
+
+.midias__sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.midias__sociais-item {
+    font-size: 2rem;
+}
+
+.lista__politicas {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.lista__politicas-item {
+    padding: 0 .5rem;
+    text-decoration: none;
+    color: #1d1d1d8a;
+    letter-spacing: .1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.lista__politicas-item:hover{
+    filter: brightness(120%);
+}
+
+.paragrafo__rodape {
+    font-size: .8rem;
+    color: #1d1d1d8a;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+@media screen and (max-width: 320px) {
+    .lista__politicas-item {
+        font-size: .7rem;
+    }
+}
+

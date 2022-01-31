@@ -1,0 +1,46 @@
+.conteudo__principal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.turning__red {
+    height: 30rem;
+    width: 100%;
+    background: url(../img/turning-red-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.turning__red-imagem {
+    height: 15rem;
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+
+
+.titulo__secao {
+    text-align: center;
+    letter-spacing: .3rem;
+    font-weight: 300;
+    margin: 2.5rem 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .imagens__titulos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+
+    .imagem__secao {
+        width: 20rem;
+    }
+}
